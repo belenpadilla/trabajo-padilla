@@ -1,0 +1,24 @@
+.facebook {
+  color: #3a86ff; }
+
+.instagram {
+  color: #ff006e; }
+
+.footerInicio, .footerInicioDos {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center; }
+
+.footerInicioDos {
+  font-size: 45px; }
+
+.textoFondo, .textoFondoDos {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.textoFondoDos {
+  font-size: 50px; }
+
+.textoFondo, .textoFondoDos {
+  background-color: #a5dbcf; }
+
+.logo {
+  width: 150px; }

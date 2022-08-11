@@ -1,0 +1,16 @@
+.footerInicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.footerInicioDos{
+    @extend .footerInicio;
+    font-size: 45px;
+}
+.textoFondo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.textoFondoDos{
+    @extend .textoFondo;
+    font-size: 50px ;
+}
