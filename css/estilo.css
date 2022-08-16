@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .facebook {
   color: #3a86ff; }
 
@@ -17,8 +18,16 @@
 .textoFondoDos {
   font-size: 50px; }
 
+.textosConEstilo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  text-align: center; }
+
 .textoFondo, .textoFondoDos {
   background-color: #a5dbcf; }
 
 .logo {
   width: 150px; }
+
+.cambioTamaño img {
+  width: 25%; }
