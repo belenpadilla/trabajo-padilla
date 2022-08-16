@@ -31,3 +31,7 @@
 
 .cambioTamaño img {
   width: 25%; }
+
+h1, h3 {
+  font-family: 'Gulzar', serif;
+  color: #00b2ca; }
