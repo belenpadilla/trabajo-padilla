@@ -24,7 +24,7 @@
   text-align: center; }
 
 .textoFondo, .textoFondoDos {
-  background-color: #a5dbcf; }
+  background-color: #bcddd6; }
 
 .logo {
   width: 150px; }
@@ -32,6 +32,30 @@
 .cambioTamaño img {
   width: 25%; }
 
-h1, h3 {
+h1, h3, .footerInicio, .footerInicioDos {
   font-family: 'Gulzar', serif;
   color: #00b2ca; }
+
+.ordenTarjetas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.footerRelleno {
+  margin-left: 20px; }
+
+.hoverCambio {
+  transition: height 0.3s, width 0.8s; }
+
+.hoverCambio:hover {
+  height: 320px;
+  width: 220px; }
+
+.moviMientos {
+  transition: all 0.2s;
+  background-color: #b5d3d7; }
+
+.moviMientos:hover {
+  color: #00b2ca;
+  width: 420px;
+  height: 120px; }
