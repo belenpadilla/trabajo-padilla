@@ -23,6 +23,9 @@
   font-size: 50px;
   text-align: center; }
 
+footer {
+  background-color: #b5d3d7; }
+
 .textoFondo, .textoFondoDos {
   background-color: #bcddd6; }
 
@@ -34,7 +37,7 @@
 
 h1, h3, .footerInicio, .footerInicioDos {
   font-family: 'Gulzar', serif;
-  color: #00b2ca; }
+  color: #578e96; }
 
 .ordenTarjetas {
   display: flex;
@@ -42,14 +45,15 @@ h1, h3, .footerInicio, .footerInicioDos {
   align-items: center; }
 
 .footerRelleno {
-  margin-left: 20px; }
+  margin-left: 20px;
+  text-decoration: none; }
 
 .hoverCambio {
   transition: height 0.3s, width 0.8s; }
 
 .hoverCambio:hover {
   height: 320px;
-  width: 220px; }
+  width: 270px; }
 
 .moviMientos {
   transition: all 0.2s;
@@ -59,3 +63,20 @@ h1, h3, .footerInicio, .footerInicioDos {
   color: #00b2ca;
   width: 420px;
   height: 120px; }
+
+.estiloAbajo {
+  background-color: #b5d3d7;
+  align-items: center;
+  color: #578e96;
+  font-family: 'Gulzar', serif; }
+
+.margenFormulario {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  font-family: 'Gulzar', serif; }
+
+.margenFormularioDos {
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Gulzar', serif; }

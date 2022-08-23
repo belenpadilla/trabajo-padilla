@@ -3,7 +3,9 @@
 @import "extend";
 @import "mixins";
 
-
+footer{
+    background-color:#b5d3d7 ;
+}
 .textoFondo{
     background-color: rgb(188, 221, 214);
 }
@@ -16,17 +18,20 @@
   
 h1, h3, .footerInicio {
     font-family: 'Gulzar', serif;
-    color: #00b2ca;
+    color: #578e96;
 } 
 
 .ordenTarjetas{
     display:flex;
     justify-content: space-around;
     align-items: center;
+
+    
 }
 
 .footerRelleno{
     margin-left: 20px;
+    text-decoration: none;
 
 }
 
@@ -35,7 +40,7 @@ h1, h3, .footerInicio {
 }
 .hoverCambio:hover {
     height: 320px;
-    width: 220px;
+    width: 270px;
 }
 .moviMientos{
     transition: all 0.2s;
@@ -45,4 +50,21 @@ h1, h3, .footerInicio {
     color: #00b2ca;
     width: 420px;
     height: 120px;
+}
+.estiloAbajo{
+    background-color: #b5d3d7;
+    align-items: center;
+    color: #578e96;
+    font-family: 'Gulzar', serif;
+}
+.margenFormulario{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    font-family: 'Gulzar', serif;
+}
+.margenFormularioDos {
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Gulzar', serif;
 }
