@@ -14,7 +14,7 @@ footer{
 }
 
 .cambioTamaño img {
-    width: 25%; }
+    width: 35%; }
   
 h1, h3, .footerInicio {
     font-family: 'Gulzar', serif;
@@ -39,11 +39,11 @@ h1, h3, .footerInicio {
     transition: height 0.3s, width 0.8s;
 }
 .hoverCambio:hover {
-    height: 320px;
-    width: 270px;
+    height: 220px;
+    width: 170px;
 }
 .moviMientos{
-    transition: all 0.2s;
+    transition: all 0.4s;
     background-color: #b5d3d7;
 }
 .moviMientos:hover{
