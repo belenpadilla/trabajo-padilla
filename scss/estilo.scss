@@ -1,8 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
 @import "maps";
 @import "extend";
 @import "mixins";
 
+*body{
+    margin: 0;
+    padding: 0;
+}
 footer{
     background-color:#b5d3d7 ;
 }
@@ -14,7 +18,8 @@ footer{
 }
 
 .cambioTamaño img {
-    width: 35%; }
+    width: 25%; 
+}
   
 h1, h3, .footerInicio {
     font-family: 'Gulzar', serif;
@@ -36,26 +41,25 @@ h1, h3, .footerInicio {
 }
 
 .hoverCambio {
-    transition: height 0.3s, width 0.8s;
+    transition: height 0.8s, width 0.8s;
 }
 .hoverCambio:hover {
-    height: 220px;
-    width: 170px;
+    height: 300px;
+    width: 320px;
 }
 .moviMientos{
-    transition: all 0.4s;
     background-color: #b5d3d7;
 }
 .moviMientos:hover{
     color: #00b2ca;
-    width: 420px;
-    height: 120px;
+
 }
 .estiloAbajo{
     background-color: #b5d3d7;
     align-items: center;
     color: #578e96;
     font-family: 'Gulzar', serif;
+    
 }
 .margenFormulario{
     margin: 10px;
@@ -67,4 +71,20 @@ h1, h3, .footerInicio {
     margin: 20px;
     padding: 20px;
     font-family: 'Gulzar', serif;
+}
+.cambiarTamaño{
+    width: 20%;
+}
+.tarjetas{
+margin: 55px;
+margin: 15px;
+font-family: 'Gulzar', serif;
+
+}
+.utilidades{
+    color: #578e96;
+    font-family: 'Gulzar', serif;
+}
+.cambioTamañoDos{
+    width: 50px;
 }

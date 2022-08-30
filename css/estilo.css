@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&display=swap");
 .facebook {
   color: #3a86ff; }
 
@@ -22,6 +23,10 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
   text-align: center; }
+
+*body {
+  margin: 0;
+  padding: 0; }
 
 footer {
   background-color: #b5d3d7; }
@@ -49,20 +54,17 @@ h1, h3, .footerInicio, .footerInicioDos {
   text-decoration: none; }
 
 .hoverCambio {
-  transition: height 0.3s, width 0.8s; }
+  transition: height 0.8s, width 0.8s; }
 
 .hoverCambio:hover {
-  height: 320px;
-  width: 270px; }
+  height: 300px;
+  width: 320px; }
 
 .moviMientos {
-  transition: all 0.2s;
   background-color: #b5d3d7; }
 
 .moviMientos:hover {
-  color: #00b2ca;
-  width: 420px;
-  height: 120px; }
+  color: #00b2ca; }
 
 .estiloAbajo {
   background-color: #b5d3d7;
@@ -80,3 +82,18 @@ h1, h3, .footerInicio, .footerInicioDos {
   margin: 20px;
   padding: 20px;
   font-family: 'Gulzar', serif; }
+
+.cambiarTamaño {
+  width: 20%; }
+
+.tarjetas {
+  margin: 55px;
+  margin: 15px;
+  font-family: 'Gulzar', serif; }
+
+.utilidades {
+  color: #578e96;
+  font-family: 'Gulzar', serif; }
+
+.cambioTamañoDos {
+  width: 50px; }
