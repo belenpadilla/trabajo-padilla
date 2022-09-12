@@ -3,10 +3,12 @@
 @import "extend";
 @import "mixins";
 
-*body{
+*{
     margin: 0;
     padding: 0;
+    
 }
+
 footer{
     background-color:#b5d3d7 ;
 }
@@ -20,26 +22,11 @@ footer{
 .cambioTamaño img {
     width: 25%; 
 }
-  
+
 h1, h3, .footerInicio {
     font-family: 'Gulzar', serif;
     color: #578e96;
 } 
-
-.ordenTarjetas{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-
-    
-}
-
-.footerRelleno{
-    margin-left: 20px;
-    text-decoration: none;
-
-}
-
 .hoverCambio {
     transition: height 0.8s, width 0.8s;
 }
@@ -48,19 +35,21 @@ h1, h3, .footerInicio {
     width: 320px;
 }
 .moviMientos{
-    background-color: #b5d3d7;
+    background-color: #98c1c7;
 }
 .moviMientos:hover{
     color: #00b2ca;
 
 }
 .estiloAbajo{
-    background-color: #b5d3d7;
-    align-items: center;
+    background-color: #98c1c7;
+    align-content: center;
     color: #578e96;
     font-family: 'Gulzar', serif;
+    text-decoration: none;
     
 }
+
 .margenFormulario{
     margin: 10px;
     padding: 10px;
@@ -76,9 +65,9 @@ h1, h3, .footerInicio {
     width: 20%;
 }
 .tarjetas{
-margin: 55px;
-margin: 15px;
-font-family: 'Gulzar', serif;
+    margin: 55px;
+    margin: 15px;
+    font-family: 'Gulzar', serif;
 
 }
 .utilidades{
@@ -87,4 +76,32 @@ font-family: 'Gulzar', serif;
 }
 .cambioTamañoDos{
     width: 50px;
+}
+.lupa{
+    width: 25px;
+    
+}
+.buscadorLupa{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.arregloAbajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.caja-cambio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.logosRedes{
+    width: 35px;
+    
+    
 }
